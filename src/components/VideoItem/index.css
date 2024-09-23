@@ -1,0 +1,42 @@
+.video-card {
+  display: flex;
+  width: 96%;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 15px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 575px) and (max-width: 860px) {
+  .video-card {
+    width: 250px;
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 860px) {
+  .video-card {
+    width: 300px;
+  }
+}
+
+.views-year-container {
+  display: flex;
+}
+
+.channel-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 90px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.details-container {
+  display: flex;
+}
+
+.active-video-tab {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}

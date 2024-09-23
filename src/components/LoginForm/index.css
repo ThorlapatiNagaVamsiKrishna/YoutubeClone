@@ -1,0 +1,44 @@
+.user-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-logo {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.user-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  height: 20px;
+  width: 18px;
+}
+
+.show-password-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login-button {
+  background-color: #3b82f6;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.error-msg {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  font-weight: 500;
+}

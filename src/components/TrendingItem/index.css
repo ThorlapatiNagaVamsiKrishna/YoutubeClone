@@ -1,0 +1,64 @@
+.trending-video-card {
+  display: flex;
+  width: 90%;
+  list-style-type: none;
+  margin: 15px;
+  flex-grow: 1;
+}
+
+.video-image {
+  height: 200px;
+  margin-right: 20px;
+}
+
+.channel-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.active-video-trending {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .trending-video-card {
+    display: flex;
+    width: 95%;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .active-video-trending {
+    display: flex;
+    flex-direction: column;
+  }
+  .channel-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .video-image {
+    height: 150px;
+  }
+}
+
+.views-year-container {
+  display: flex;
+  align-items: center;
+}
+
+.channel-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 90px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.details-container {
+  display: flex;
+}

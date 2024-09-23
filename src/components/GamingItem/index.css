@@ -1,0 +1,19 @@
+.gaming-video-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 120px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 576px) {
+  .gaming-video-card {
+    width: 200px;
+  }
+}
+
+.active-video-gaming {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
